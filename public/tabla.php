@@ -36,16 +36,14 @@ var_dump($persona);
         <td>
           <?php $value("edad"); ?>
         </td>
+        <td>
+          <form action="" method="">
+            <button type="submit">Eliminar</button>
+          </form>
+        </td>
       </tr>
     <?php
     }
     ?>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
   </tbody>
 </table>
